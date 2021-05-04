@@ -1,0 +1,31 @@
+p{
+    color: red;
+}
+
+.p-class{
+    color:blue;
+}
+
+#p-id{
+    color: green;
+}
+
+img{
+    border-radius: 50%;
+}
+
+div{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    /* to align items along horizontal we use justify content */
+    /* justify-content:space-evenly;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+    justify-content: center;
+    /* to align items along verticle we use align items */
+    align-items: center;
+
+
+}
