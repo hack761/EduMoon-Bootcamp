@@ -1,11 +1,14 @@
 import React from 'react'
 
-function ReactComponent() {
-    return (
-        <div>
-            <p>I'm a paragraph</p>
-        </div>
-    )
+class ReactComponent extends React.Component{
+    // useState ->
+    render(){
+        return (
+            <div>
+                <p>I'm a paragraph</p>
+            </div>
+        )
+    }
 }
 
 export default ReactComponent
